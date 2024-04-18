@@ -1,0 +1,7 @@
+.type-animation {
+  font-size: max(3vw, 25px);
+  font-weight: bold;
+  color: red;
+  width: max(35vw, 25vw);
+  word-wrap: break-word;
+}

@@ -1,0 +1,25 @@
+.error-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  white-space: nowrap;
+  text-align: center;
+}
+
+.error-content h1 {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.error-content h2 {
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+
+.error-content a {
+  font-weight: bold;
+  font-size: 40px;
+  color: rgb(180, 180, 180);
+}

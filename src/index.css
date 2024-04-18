@@ -1,0 +1,13 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-image: url("./Assets/background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
