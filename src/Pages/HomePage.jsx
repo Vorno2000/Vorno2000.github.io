@@ -12,7 +12,7 @@ function HomePage() {
           <div className={styles["image-background"]}>
             <img
               className={styles["profile-image"]}
-              src="./src/Assets/selfpicture.JPG"
+              src="/src/Assets/selfpicture.JPG"
               alt="logo"
             />
           </div>
