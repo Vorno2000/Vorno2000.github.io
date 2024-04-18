@@ -12,14 +12,14 @@ function HomePage() {
           <div className={styles["image-background"]}>
             <img
               className={styles["profile-image"]}
-              src="./Assets/selfpicture.JPG"
+              src="./src/Assets/selfpicture.JPG"
               alt="logo"
             />
           </div>
           <div className={styles["description-container"]}>
             <h1>
               Hi, <br />
-              I Vaughn <br />
+              I'm Vaughn <br />
             </h1>
             <HomeTypeAnimation />
           </div>
