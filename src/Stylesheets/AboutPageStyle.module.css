@@ -1,4 +1,4 @@
-.home-content {
+.about-content {
   display: flex;
   height: calc(100vh - 65px);
 }
@@ -9,8 +9,7 @@
   min-width: 20%;
   justify-content: space-evenly;
   align-items: center;
-  margin-left: 10vw;
-  margin-right: 10vw;
+  flex-wrap: wrap;
 }
 
 .image-background {
@@ -29,15 +28,16 @@
 
 .profile-image {
   display: flex;
-  clip-path: ellipse(45% 50% at 50% 50%);
+  border-radius: 10%;
   width: 100%;
   height: auto;
 }
 
 .description-container {
   display: flex;
+  justify-content: space-evenly;
   flex-direction: column;
-  height: 40vh;
+  height: 50vh;
 }
 
 .description-container h1 {
@@ -47,7 +47,9 @@
   margin-bottom: 30px;
 }
 
-.description-container span {
-  width: 31vw;
-  font-weight: bold;
+.description-container p {
+  width: 50vw;
+  font-size: 18px;
+  color: white;
+  margin-bottom: 20px;
 }

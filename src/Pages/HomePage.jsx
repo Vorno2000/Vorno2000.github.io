@@ -9,19 +9,19 @@ function HomePage() {
 
       <section className={styles["home-content"]}>
         <div className={styles["content-container"]}>
-          <div className={styles["image-background"]}>
-            <img
-              className={styles["profile-image"]}
-              src="/selfpicture.jpg"
-              alt="logo"
-            />
-          </div>
           <div className={styles["description-container"]}>
             <h1>
               Hi, <br />
               I'm Vaughn <br />
             </h1>
             <HomeTypeAnimation />
+          </div>
+          <div className={styles["image-background"]}>
+            <img
+              className={styles["profile-image"]}
+              src="/selfpicture.jpg"
+              alt="logo"
+            />
           </div>
         </div>
       </section>

@@ -1,6 +1,6 @@
-import Nav from "../Components/Nav";
-import ProjectCard from "../Components/ProjectCard";
-import styles from "../Stylesheets/ProjectsStyle.module.css";
+import Nav from "../Components/Nav.jsx";
+import ProjectCard from "../Components/ProjectCard.jsx";
+import styles from "../Stylesheets/ProjectsPageStyle.module.css";
 import projectsData from "../Data/ProjectsData.jsx";
 import { Link } from "react-router-dom";
 

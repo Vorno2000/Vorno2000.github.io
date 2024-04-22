@@ -4,9 +4,11 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "./index.css";
 
 import HomePage from "./Pages/HomePage";
-import About from "./Pages/About";
-import Projects from "./Pages/Projects";
+import AboutPage from "./Pages/AboutPage";
+import ProjectsPage from "./Pages/ProjectsPage";
 import ProjectInfo from "./Pages/ProjectInfo";
+import SkillsPage from "./Pages/SkillsPage";
+import ContactPage from "./Pages/ContactPage";
 import ErrorPage from "./Pages/ErrorPage";
 
 const router = createBrowserRouter([
@@ -17,24 +19,24 @@ const router = createBrowserRouter([
   },
   {
     path: "/about",
-    element: <About />,
+    element: <AboutPage />,
   },
-  // {
-  //   path: "/skills",
-  //   element: <Skills />,
-  // },
+  {
+    path: "/skills",
+    element: <SkillsPage />,
+  },
   {
     path: "/projects",
-    element: <Projects />,
+    element: <ProjectsPage />,
   },
   {
     path: "/projects/:projectId",
     element: <ProjectInfo />,
   },
-  // {
-  //   path: "/contact",
-  //   element: <Contact />,
-  // },
+  {
+    path: "/contact",
+    element: <ContactPage />,
+  },
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(

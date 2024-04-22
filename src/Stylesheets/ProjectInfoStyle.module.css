@@ -34,9 +34,13 @@
   align-items: center;
   text-align: center;
   width: 50%;
+  height: clamp(35vh, 45vh, 45vh);
   min-width: 410px;
-  min-height: 35vh;
   color: red;
+}
+
+.info-container p {
+  color: white;
 }
 
 .info-container h1 {
@@ -48,8 +52,30 @@
   width: 95%;
 }
 
-.github-icon {
+.links-container {
+  display: flex;
+  align-items: center;
+  width: 200px;
   font-size: 50px;
+}
+
+.github-icon {
+  display: flex;
   background-color: black;
   color: white;
+  border-radius: 50%;
+}
+
+.github-icon:hover {
+  color: red;
+}
+
+.link-icon {
+  display: flex;
+  color: white;
+  border-radius: 5px;
+}
+
+.link-icon:hover {
+  color: red;
 }
