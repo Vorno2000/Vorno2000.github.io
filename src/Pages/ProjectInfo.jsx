@@ -16,7 +16,7 @@ export const ProjectInfo = () => {
   const linkToPage = () => {
     return (
       <>
-        <Link to={project.link}>
+        <Link to={project.link} reloadDocument>
           <FaExternalLinkAlt className={styles["link-icon"]} />
         </Link>
       </>
