@@ -14,18 +14,14 @@ const ContactPage = () => {
 
       <section className={styles["contact-content"]}>
         <div className={styles["info-container"]}>
-          <div className={styles["info"]}>
-            <h1>Name:</h1>
-            <h2>Vaughn Carroll</h2>
-          </div>
-          <div className={styles["info"]}>
-            <h1>Mobile:</h1>
-            <h2 className={styles["info"]}>(+61) 433 465 461</h2>
-          </div>
-          <div className={styles["info"]}>
-            <h1>Email:</h1>
-            <h2 className={styles["info"]}>vorno2000@gmail.com</h2>
-          </div>
+          <h1>Name:</h1>
+          <h2>Vaughn Carroll</h2>
+
+          <h1>Mobile:</h1>
+          <h2>(+61) 433 465 461</h2>
+
+          <h1>Email:</h1>
+          <h2>Vorno2000@gmail.com</h2>
         </div>
         <div className={styles["links-container"]}>
           <div className={styles["icon-container"]}>
